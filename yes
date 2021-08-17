@@ -141,7 +141,7 @@ local Line_13 = Instance.new("Frame")
 --Properties:
 
 SudoX.Name = "SudoX"
-SudoX.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+SudoX.Parent = game.CoreGui
 SudoX.DisplayOrder = 999
 SudoX.ResetOnSpawn = false
 
