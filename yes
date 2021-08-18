@@ -66,7 +66,7 @@ chatFrame.ChatBarParentFrame.Position = chatFrame.ChatChannelParentFrame.Positio
 
 	local SayMessageRequest99 = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
 	SayMessageRequest99:FireServer(
-		"[Ngmma X Premium] GodBlock Loaded.",
+		"[Ngmma X Premium] Loaded Successfully.",
 		"All"
 	)
 
