@@ -5,7 +5,8 @@ enabled = true
 spyOnMyself = true
 --if true will chat the logs publicly (fun, risky)
 public = false
---if true will use /me to stand out
+--if true will use /me to stand 
+
 publicItalics = true
 --customize private logs
 privateProperties = {
@@ -62,6 +63,12 @@ StarterGui:SetCore("ChatMakeSystemMessage",privateProperties)
 local chatFrame = player.PlayerGui.Chat.Frame
 chatFrame.ChatChannelParentFrame.Visible = true
 chatFrame.ChatBarParentFrame.Position = chatFrame.ChatChannelParentFrame.Position+UDim2.new(UDim.new(),chatFrame.ChatChannelParentFrame.Size.Y)
+
+	local SayMessageRequest99 = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+	SayMessageRequest99:FireServer(
+		"[Ngmma X Premium] GodBlock Loaded.",
+		"All"
+	)
 
 _PLz53KykvWK1NKEC, Credit_By_SudoLUA, Discord = 'discord.gg/gQEH2uZxUk'
 
